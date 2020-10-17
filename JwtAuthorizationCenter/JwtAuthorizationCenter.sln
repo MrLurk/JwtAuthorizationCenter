@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizationCenter", "AuthorizationCenter\AuthorizationCenter.csproj", "{9C7F36DF-327E-470F-9DC9-8B916243A306}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthLib", "AuthLib\AuthLib.csproj", "{2DCEF34B-07F5-40CA-A148-8E435ED66E47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server1", "Server1\Server1.csproj", "{FE658146-6C36-41DE-8097-02BC49AA3653}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{9C7F36DF-327E-470F-9DC9-8B916243A306}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C7F36DF-327E-470F-9DC9-8B916243A306}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C7F36DF-327E-470F-9DC9-8B916243A306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DCEF34B-07F5-40CA-A148-8E435ED66E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DCEF34B-07F5-40CA-A148-8E435ED66E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DCEF34B-07F5-40CA-A148-8E435ED66E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DCEF34B-07F5-40CA-A148-8E435ED66E47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE658146-6C36-41DE-8097-02BC49AA3653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE658146-6C36-41DE-8097-02BC49AA3653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE658146-6C36-41DE-8097-02BC49AA3653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE658146-6C36-41DE-8097-02BC49AA3653}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
