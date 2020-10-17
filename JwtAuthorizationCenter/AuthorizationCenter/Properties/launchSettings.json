@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "AuthorizationCenter": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "Auth",
+      "applicationUrl": "http://localhost:5025",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

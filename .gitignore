@@ -3,3 +3,5 @@
 ################################################################################
 
 /JwtAuthorizationCenter/AuthorizationCenter/obj
+/JwtAuthorizationCenter/.vs/JwtAuthorizationCenter/v16
+/JwtAuthorizationCenter/AuthorizationCenter/bin/Debug/netcoreapp3.1
