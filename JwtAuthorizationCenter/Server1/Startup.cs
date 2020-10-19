@@ -1,5 +1,7 @@
+using System;
 using System.Text;
 using AuthLib.Auth;
+using AuthLib.Common;
 using CSRedis;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -62,6 +64,8 @@ namespace Server1 {
                 app.UseDeveloperExceptionPage();
             }
 
+            ServiceLocator.Instance = app.ApplicationServices;
+
             app.UseRouting();
 
             app.UseAuthentication();
@@ -72,4 +76,5 @@ namespace Server1 {
             });
         }
     }
+
 }

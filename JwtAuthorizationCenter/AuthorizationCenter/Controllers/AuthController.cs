@@ -46,5 +46,9 @@ namespace AuthorizationCenter.Controllers {
             }
             return Ok(new { ttl, refreshToken = string.Empty });
         }
+
+        public ActionResult GetUser() {
+            return Ok(new { Name = "", Power = new string[] { "1", "2" } });
+        }
     }
 }
